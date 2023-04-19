@@ -17,6 +17,8 @@ khi đi làm dự án mới , cần lấy source code từ trên remote r
 khi đi làm ta muốn test qua một số chức năng mới , nhưng sợ ảnh hưởng tới các đoạn code cũ đang có ta sẽ commit lại đoạn code đó và chỉnh sửa,
 nếu muốn quay về vị trí commit đó khi lỗi ta sài git stash
 
+các bước tạo nhánfa-flip-horizontalb1 dùng lệnh git branch 6+ tên nhánh, muốn kiểm tra các nhánh đang có local ta dùng lệnh git branch, nếu muốn chuyển
+nhánh sẽ dùng lệnh git checkout + tên nhánh
 
 cập nhật file "
 git add .
