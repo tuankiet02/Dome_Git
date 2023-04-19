@@ -1,0 +1,7 @@
+cách để tạo một Local Repository : git init
+khi khởi động Local Repo thành công sẽ xuất hiện 1 thư mục ẩn .git bên trong thư mục dự án
+
+cách kết nối remote Repo với Local repe lại với nhau : dùng lệnh git temote add origin kèm url đường dẫn tới source code trên remote
+
+các bước để đẩy code chúng ta lên Remote Repo
+B1: sẽ đẩy các file có sự thay đổi lên staging area, dùng lệnh git add + Tên file nếu muốn đẩy từng file, muốn đẩy tất cả thì dùng lệnh git add ., để kiểm tra sự thay đổi ta có thể dùng lệnh git statusg
