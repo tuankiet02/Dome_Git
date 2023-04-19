@@ -4,4 +4,21 @@ khi khởi động Local Repo thành công sẽ xuất hiện 1 thư mục 
 cách kết nối remote Repo với Local repe lại với nhau : dùng lệnh git temote add origin kèm url đường dẫn tới source code trên remote
 
 các bước để đẩy code chúng ta lên Remote Repo
-B1: sẽ đẩy các file có sự thay đổi lên staging area, dùng lệnh git add + Tên file nếu muốn đẩy từng file, muốn đẩy tất cả thì dùng lệnh git add ., để kiểm tra sự thay đổi ta có thể dùng lệnh git statusg
+B1: sẽ đẩy các file có sự thay đổi lên staging area, dùng lệnh git add + Tên file nếu muốn đẩy từng file, muốn đẩy tất cả thì dùng lệnh git add .,
+ để kiểm tra sự thay đổi ta có thể dùng lệnh git status, muốn đảo ngược lại việc thêm các file có sự thay đổi lên staging area dùng lệnh git reset
+
+B2: tạo ra commit -m để ghi chú lại sự thay đổi code. chúng ra dùng lệnh git commit -m "lời nhắn", muốn kiểm tra các commit lang có sẽ dùng lệnh
+git log
+
+B3:đẩy code từ local repo lên remote repo để lưu trữ , lần đầu sẽ dùng lệnh git push -u origin master, những lần sau chỉ cần dùng lệnh git push origin
+
+
+
+git init
+git remote add origin
+git add .
+git status
+gti add .
+git commit -m "..."
+git log
+git push -u origin master
